@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-image: url('../img/bg.png');
+    background-size: 100%;
+	font: 18px Verdana;
+	color: #FFF;
+}
+.image-position{
+    position: absolute;
+    left: 3%;
+}
+.image-position img{
+    width: 70%;
+}
+a {
+    color: #E91E63;
+    text-decoration: none;
+}
+#picbox {
+	margin: 0px auto;
+	width: 436px;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+     /*padding: 5px; */
+    /*border: 2px solid #1d3749;*/
+    cursor: pointer;
+    border-radius: 0px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background: #fffff0;
+    z-index: 2;
+}
+#boxcard div img {
+	z-index: 3;
+    width: 100%;
+    display: none;
+}
+#boxcard div div {
+	z-index: 3;
+    width: 100%;
+    display: none;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+    background: aliceblue;
+    padding: 8px 20px;
+    color: #1d3749;
+    margin: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
+}
+.quadrado {
+    background-size: 99px 99px !important;
+}
